@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Card from './TaskCard';
-import { LucideKey } from 'lucide-react';
 import Input from './Input';
 
 
@@ -11,7 +10,6 @@ const initialTasks = [
 ];
 
 export const Tasks = () => {
-        const [searchTerm, setSearchTerm] = useState("");
         const [newTaskTitle, setNewTaskTitle] = useState("");
         const [newTaskDescription, setNewTaskDescription] = useState("");
         const [addingTask, setAddingTask] = useState(false);
